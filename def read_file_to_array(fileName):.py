@@ -28,7 +28,7 @@ def binary_search(array, target):
    return -1, counter 
 
 
-target = 196614208
+target = 51216352
 fileName = 'numbers.txt'
 
 # reads the values from the file into an array
