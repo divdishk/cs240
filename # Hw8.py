@@ -1,4 +1,9 @@
 # Hw8
+# BFS is ideal for searching trees and graphs when you want to visit the 
+# neighbors of the node before moving on to the next set of neighbors.
+# Time complexity: O(V+E), every vertex is visited at least once O(V),  and every edge ]
+# is visited once as bfs explores the edges incident to each vertex O(E).
+
 from collections import deque
 import graphlib
 
