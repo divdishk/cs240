@@ -1,4 +1,7 @@
 #dfs
+# DFS is ideal for when you want to systematically go through all possible paths in the group, traversing deeply before backtracking
+# Time complexity is O(V+E), which means with this time complexity,
+# dfs can visit every vertex and edge of the graph once. V is the number of verticals and E is the number of edges.v
 from collections import deque
 
 def dfs(node, targetValue):
